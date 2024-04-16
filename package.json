@@ -1,0 +1,26 @@
+{
+  "name": "easing-controller",
+  "version": "0.0.1",
+  "description": "some easing functions for animation",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "easing",
+    "animation"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "prepublish": "pnpm run build"
+  },
+  "author": "Wakin",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.2.8",
+    "vite-plugin-dts": "^3.8.2",
+    "vue-tsc": "^2.0.13"
+  }
+}
